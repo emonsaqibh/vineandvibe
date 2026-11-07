@@ -222,7 +222,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1745573673583-a51f665ae48e?w=1920&q=85&auto=format&fit=crop"
-            alt="Wedding stage decorated with flowers and drapery"
+            alt="Vine & Vibe luxury royal wedding stage decoration with flowers, drapery, and seating in Rangpur, Bangladesh"
             fill
             priority
             className="object-cover object-center"
@@ -337,7 +337,7 @@ export default function HomePage() {
             <div className="rounded-2xl overflow-hidden h-64 col-span-2">
               <Image
                 src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=900&q=80"
-                alt="Event setup"
+                alt="Vine & Vibe professional event setup and celebration stage decor in Rangpur"
                 width={900} height={500}
                 className="w-full h-full object-cover"
               />
@@ -345,7 +345,7 @@ export default function HomePage() {
             <div className="rounded-2xl overflow-hidden h-40">
               <Image
                 src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80"
-                alt="Event lighting"
+                alt="Vine & Vibe atmospheric party lighting and banquet ambiance styling"
                 width={600} height={400}
                 className="w-full h-full object-cover"
               />
@@ -353,7 +353,7 @@ export default function HomePage() {
             <div className="rounded-2xl overflow-hidden h-40 relative">
               <Image
                 src="/logo.jpg"
-                alt="Vine & Vibe Logo"
+                alt="Vine & Vibe Event Management Rangpur Logo"
                 fill
                 className="object-cover"
               />
@@ -453,7 +453,7 @@ export default function HomePage() {
                 <div className="relative h-[340px] md:h-[380px] overflow-hidden">
                   <Image
                     src={item.img}
-                    alt={item.label}
+                    alt={`Vine & Vibe ${item.label} - ${item.category} in Rangpur, Bangladesh`}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -595,6 +595,7 @@ export default function HomePage() {
               <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <a
                   href="tel:01750951093"
+                  aria-label="Call Vine & Vibe Event primary booking hotline 01750 951 093"
                   className="group p-8 rounded-2xl border border-[#c9a84c]/30 bg-[#141414] hover:bg-[#1a1a1a] hover:border-[#c9a84c] transition-all duration-300 flex flex-col items-center gap-3 shadow-xl hover:shadow-[#c9a84c]/10"
                 >
                   <div className="w-16 h-16 rounded-full bg-[#c9a84c]/15 border border-[#c9a84c]/30 flex items-center justify-center group-hover:bg-[#c9a84c] transition-all duration-300">
@@ -614,6 +615,7 @@ export default function HomePage() {
 
                 <a
                   href="tel:01750622423"
+                  aria-label="Call Vine & Vibe Event customer support and booking line 01750 622 423"
                   className="group p-8 rounded-2xl border border-[#c9a84c]/30 bg-[#141414] hover:bg-[#1a1a1a] hover:border-[#c9a84c] transition-all duration-300 flex flex-col items-center gap-3 shadow-xl hover:shadow-[#c9a84c]/10"
                 >
                   <div className="w-16 h-16 rounded-full bg-[#c9a84c]/15 border border-[#c9a84c]/30 flex items-center justify-center group-hover:bg-[#c9a84c] transition-all duration-300">
